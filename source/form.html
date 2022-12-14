@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="page">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pink</title>
+</head>
+
+<body class="page__body">
+    <section class="background-wrapper">
+        <header class="page-header">
+            <a class="page-header__logo">
+                <img src="/img/logo-mobile.png" alt="Pink">
+            </a>
+            <nav class="page-header__main-nav">
+                <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть
+                        меню</span></button>
+                <ul>
+                    <li>
+                        <a>Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Фотографии</a>
+                    </li>
+                    <li>
+                        <a href="#">Конкурс</a>
+                    </li>
+                    <li>
+                        <a href="#">HTML Academy</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-main">
+            <h1 >Конкурс на самое безбашенное путешествие с Пинк</h1>
+    </section>
+        <section class="page-main__form">
+            <p>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+            <form action="https://echo.ru/courses" method="get">
+                <fieldset>
+                   <label>Фамилия<input type="text" name="surname" value="Укажите фамилию *"></label>
+                   <label>Имя<input type="text" name="name" value="Введите ваше имя *"></label>
+                   <label>Отчество<input type="text" name="patronymic" value="Ну и отчество тоже"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Ваши безбашенные достижения в путешествии</legend>
+                    <ul>
+                        <li>
+                           <input type="checkbox" name="selfie" id="selfie" checked> <label for="selfie">Сделал селфи с акулой</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="burned-on-the-beach" id="burned" checked><label for="burned">Обгорел на пляже</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="have-you-seen-Chuck-Norris" id="chuck"><label for="chuck">Видел Чака Норриса</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="bought-souvenirs" id="souvenirs"><label for="souvenirs">Накупил сувениров</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="hold-the-tower" id="tower" checked><label for="tower">Удержал башню</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="trashed-the-hotel" id="hotel"><label for="hotel">Разгромил отель</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend class="visually-hidden">Контактная информация</legend>
+                    <label>Номер телефона<input type="tel" name="tel" value="Номер, пожалуйста"></label>
+                    <label>Адрес почты<input type="email" name="email" value="Введите почту*"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>С каким приложением путешествовали?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="OS" id="ios" value="Pink для iOS" checked><label for="ios">Pink для iOS</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="OS" id="android" value="Pink на Android"><label for="android">Pink на Android</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="OS" id="windows" value="Windows Phone"><label for="windows">Windows Phone</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Опишите свои эмоции</legend>
+                    <textarea name="emotion" id="emotion" cols="30" rows="10" value="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Отправить">
+                    <p><span><sup>*</sup></span>— обязательные для заполнения поля</p>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+    <footer class="page-footer">
+        <img src="/img/logo-footer.png" alt="/">
+        <div>
+            <ul class="social-media">
+                <li><a class="social-media--twitter" href="#">Мы в Твиттер</a></li>
+                <li><a class="social-media--facebook" href="#">Мы в Фейсбук</a></li>
+                <li><a class="social-media--youtube" href="#">Мы в Ютуб</a></li>
+            </ul>
+        </div>
+        <div class="developer">
+            <p>Разработано</p>
+            <img class="developer--logo" src="/img/html academy.svg" alt="Логотип HTML-Академии">
+        </div>
+    </footer>
+</body>
+</html>
